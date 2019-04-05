@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/sections">
+            <menu>
+                <item
+                    android:id="@+id/news"
+                    android:title="News" />
+                <item
+                    android:id="@+id/opinion"
+                    android:title="Opinion" />
+                <item
+                    android:id="@+id/features"
+                    android:title="Features" />
+                <item
+                    android:id="@+id/centerspread"
+                    android:title="Center Spread" />
+                <item
+                    android:id="@+id/literary"
+                    android:title="Literary" />
+                <item
+                    android:id="@+id/arts"
+                    android:title="Arts" />
+                <item
+                    android:id="@+id/sports"
+                    android:title="Sports" />
+                <item
+                    android:id="@+id/backpage"
+                    android:title="Back Page" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
