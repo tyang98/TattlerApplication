@@ -5,32 +5,35 @@
 
 
     <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/Main"
+                android:title="@string/main" />
         <item android:title="@string/sections">
             <menu>
                 <item
                     android:id="@+id/news"
-                    android:title="News" />
+                    android:title="@string/news" />
                 <item
                     android:id="@+id/opinion"
-                    android:title="Opinion" />
+                    android:title="@string/opinion" />
                 <item
                     android:id="@+id/features"
-                    android:title="Features" />
+                    android:title="@string/features" />
                 <item
                     android:id="@+id/centerspread"
-                    android:title="Center Spread" />
+                    android:title="@string/center_spread" />
                 <item
                     android:id="@+id/literary"
-                    android:title="Literary" />
+                    android:title="@string/literary" />
                 <item
                     android:id="@+id/arts"
-                    android:title="Arts" />
+                    android:title="@string/arts" />
                 <item
                     android:id="@+id/sports"
-                    android:title="Sports" />
+                    android:title="@string/sports" />
                 <item
                     android:id="@+id/backpage"
-                    android:title="Back Page" />
+                    android:title="@string/back_page" />
             </menu>
         </item>
     </group>
